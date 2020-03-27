@@ -1,3 +1,8 @@
-const yeet = document.getElementById("yeet");
+// #1 add items to beggining and end of array
 
-// yeet.innerHTML = "Getting better!";
+let myArray = ["1", "2", "3", "4", "5"];
+
+myArray.push("end");
+myArray.unshift("start");
+
+console.log(myArray);
