@@ -27,5 +27,3 @@
 // typeof 1 = "number"
 // typeof "number" = string
 // answer is string
-
-// ****#4
