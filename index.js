@@ -27,3 +27,15 @@
 // typeof 1 = "number"
 // typeof "number" = string
 // answer is string
+
+// ****#4 what is the output
+
+// console.log(2+"2") = output is 22 because + operator can be used on multiple data types.
+//  if used on two #s then it will add, if used on two diff data types
+//  then it will concatinate (2 + 2 == 22)
+// console.log(2-"2") = output is 0 because - operator can only be used on numbers and will
+//  interperate data types as such if possible
+
+// ***#4 remove duplicates from array
+
+//let numArray = [1, 2, 2, 3]
