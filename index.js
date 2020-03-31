@@ -35,7 +35,3 @@
 //  then it will concatinate (2 + 2 == 22)
 // console.log(2-"2") = output is 0 because - operator can only be used on numbers and will
 //  interperate data types as such if possible
-
-// ***#4 remove duplicates from array
-
-//let numArra
