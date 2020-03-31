@@ -38,4 +38,4 @@
 
 // ***#4 remove duplicates from array
 
-//let numArray = [1, 2, 2, 3]
+//let numArray = [1, 2,
