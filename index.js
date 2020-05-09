@@ -69,3 +69,30 @@
 // }
 
 // console.log(aVeryBigSum([1, 2, 3, 4, 5, 6, 7]));
+
+//Given a 3x3 square matrix, calculate the absolute difference between the sums of its diagonals.
+
+// function diagonalDifference(arr) {
+//   let leftDi = 0;
+//   let rightDi = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     leftDi += arr[i][i];
+//     rightDi += arr[i][arr.length - 1 - i];
+//   }
+
+//   difference = leftDi - rightDi;
+
+//   if (difference < 0) {
+//     difference = difference * -1;
+//   }
+
+//   return difference;
+// }
+
+// let test = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [9, 8, 9],
+// ];
+// console.log(diagonalDifference(test));
