@@ -35,3 +35,25 @@
 //  then it will concatinate (2 + 2 == 22)
 // console.log(2-"2") = output is 0 because - operator can only be used on numbers and will
 //  interperate data types as such if possible.
+
+// // Complete the compareTriplets function below. (hackerrank)
+// function compareTriplets(a, b) {
+//   let bob = 0;
+//   let alice = 0;
+
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] > b[i]) {
+//       alice++;
+//     } else if (a[i] < b[i]) {
+//       bob++;
+//     } else {
+//       continue;
+//     }
+//   }
+
+//   let final = [alice, bob];
+
+//   return final;
+// }
+
+// console.log(compareTriplets([2, 4, 6], [1, 2, 3]));
