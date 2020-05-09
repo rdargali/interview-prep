@@ -57,3 +57,15 @@
 // }
 
 // console.log(compareTriplets([2, 4, 6], [1, 2, 3]));
+
+// // Complete the aVeryBigSum function below. hackerrank
+// function aVeryBigSum(ar) {
+//   let sumArray = 0;
+//   for (let i = 0; i < ar.length; i++) {
+//     sumArray = sumArray + ar[i];
+//   }
+
+//   return sumArray;
+// }
+
+// console.log(aVeryBigSum([1, 2, 3, 4, 5, 6, 7]));
