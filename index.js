@@ -96,3 +96,37 @@
 //   [9, 8, 9],
 // ];
 // console.log(diagonalDifference(test));
+
+// Complete the plusMinus function below.  It should print out the ratio of positive,
+// //negative and zero items in the array, each on a separate line rounded to six decimals.
+// function plusMinus(arr) {
+//   let neg = 0;
+//   let pos = 0;
+//   let zer = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       neg++;
+//     } else if (arr[i] > 0) {
+//       pos++;
+//     } else {
+//       zer++;
+//     }
+
+//     negVal = neg / arr.length;
+//     posVal = pos / arr.length;
+//     zerVal = zer / arr.length;
+//   }
+
+//   negVal = (neg / arr.length).toFixed(6);
+//   posVal = (pos / arr.length).toFixed(6);
+//   zerVal = (zer / arr.length).toFixed(6);
+
+//   console.log(negVal);
+//   console.log(posVal);
+//   console.log(zerVal);
+// }
+
+// let test = [1, 3, 0, 2, 5, 6, 8, 0, 3, 4];
+
+// plusMinus(test);
