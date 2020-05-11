@@ -130,3 +130,17 @@
 // let test = [1, 3, 0, 2, 5, 6, 8, 0, 3, 4];
 
 // plusMinus(test);
+
+//test
+// //staircase test
+// function staircase(n) {
+//   let filledArray = new Array(n).fill(" ");
+//   while (filledArray.indexOf(" ") !== -1) {
+//     filledArray.shift();
+//     filledArray.push("#");
+//     console.log(filledArray.join(""));
+//     n--;
+//   }
+// }
+
+// staircase(5);
